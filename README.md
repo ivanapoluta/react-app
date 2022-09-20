@@ -1,6 +1,27 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is based on the tutorial named `"Tutorial: Build a React.js Chat App"`. You can check content of tutorial on Scaledrone blog pages following a https://www.scaledrone.com/blog/tutorial-build-a-reactjs-chat-app/ link. A project inside this repository is chat app made as a part of front-end developer course.
+
+## Features
+
+* Random name and color for each chat member
+* Sending and receiving messages in real time 
+* Input field with limited number of entries
+* Counter with number of remaining characters 
+* Animated header & input field when opening an app
+* Screen alert when accidentally sending empty message
+* Showing tooltip when the mouse pointer rests over button element
+
+## Additional note
+
+You can connect to your own Scaledrone room when you register at https://www.scaledrone.com page. To successfully connect to Scaledrone you need to get your own channel ID from the Scaledrone's dashboard and then replace `{YOUR_CHANNEL_ID}` in **App.js** file with it.
+
+Example: 
+
+```javascript
+const myChannelID = '{YOUR_CHANNEL_ID}';
+```
+
 
 ## Available Scripts
 
