@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is based on the tutorial named `"Tutorial: Build a React.js Chat App"`. You can check content of tutorial on Scaledrone blog pages following a https://www.scaledrone.com/blog/tutorial-build-a-reactjs-chat-app/ link. A project inside this repository is chat app made as a part of front-end developer course.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+
+It is based on the tutorial named `"Tutorial: Build a React.js Chat App"`. You can check content of tutorial on Scaledrone blog pages following a https://www.scaledrone.com/blog/tutorial-build-a-reactjs-chat-app/ link. A project inside this repository is chat app made as a part of front-end developer course.
 
 ## Features
 
