@@ -19,10 +19,12 @@ class InputForm extends React.Component {
 
         if (this.state.text === "") {
             alert("It's not possible to send snappy message without writing it first.");
+        } else {
+            return (
+                this.setState({ text: "" }),
+                this.props.onSendMessage(this.state.text)
+            );
         }
-
-        this.setState({ text: "" });
-        this.props.onSendMessage(this.state.text);
     }
 
 
